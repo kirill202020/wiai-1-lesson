@@ -1,0 +1,57 @@
+body {
+	text-align: center;
+}
+
+.hobby__zone {
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	text-transform: uppercase;
+}
+.h2__hobby {
+	text-transform: uppercase;
+}
+
+.hobby {
+	cursor: pointer;
+	width: 300px;
+}
+
+.hobby:hover {
+	font-weight: 700;
+	outline: 1px solid red;
+}
+
+.hobby::before {
+	content: '	\21D2';
+	top: 0;
+	left: 0px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+.wzory {
+	text-align: center;
+}
+pre {
+	width: 300px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.symbols {
+	width: 300px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.list {
+	list-style-type: none;
+}
+.list > li:hover {
+	font-weight: 700;
+	cursor: pointer;
+}
